@@ -1,0 +1,312 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.navbarname{
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  background-color: rgb(187, 210, 227);
+}
+
+label.navtitle{
+  position: absolute;
+    font-size: 41px;
+    left: 57px;
+    top: 28px;
+    font-family: serif;
+}
+
+.departmentlink{
+  position: absolute;
+    left: 72%;
+    top: 65%;
+    font-size: 20px;
+    color: black;
+    font-family: serif;
+}
+
+.studentlink{
+  position: absolute;
+    left: 80%;
+    top: 65%;
+    font-size: 20px;
+    font-family: serif;
+    color: black;
+}
+
+.departcontainer{
+  position: absolute;
+  top: 15%;
+  height: 85%;
+  width: 100%;
+}
+
+.studentcontainer{
+  position: absolute;
+  top: 15%;
+  height: 89%;
+  width: 100%;
+}
+
+.studentcontainerdashboard{
+  position: absolute;
+  top: 15%;
+  height: 85%;
+  width: 100%;
+}
+
+.add-departcontainer{
+  position: absolute;
+  top: 15%;
+  height: 89%;
+  width: 100%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.clickButton{
+  position: absolute;
+  top: 25%;
+  left: 31%;
+}
+
+.dashboard-table{
+  position: absolute;
+  height: 76%;
+  top: 8%;
+  left: 20%;
+  width: 63%;
+}
+
+
+.deleteIcon{
+  position: relative;
+  width: 38px;
+}
+
+button.createButton{
+  position: absolute;
+    top: 5%;
+    left: 75%;
+    background-color: rgb(47, 47, 148);
+    color: white;
+    width: 25%;
+}
+
+button.createButton:hover{
+  background-color: rgb(47, 47, 148);
+}
+
+label.inputLabel{
+  position: absolute;
+  left: 13%;
+  top: 21.5%;
+  font-family: math;
+  font-size: 20px;
+}
+
+.inputDepartment{
+  position: absolute;
+  width: 16%;
+  height: 6%;
+  left: 28%;
+  top: 20%;
+  border-radius: 4px;
+}
+
+h1.createtitle{
+  position: absolute;
+    left: 13%;
+    font-family: none;
+    top: 1%;
+    color: rgb(15, 59, 140);
+}
+
+.divtitle{
+  position: absolute;
+    height: 12%;
+    width: 100%;
+    background-color:white
+}
+
+button.submitbutton{
+  position: absolute;
+    left: 33%;
+    top: 31%;
+    height: 48%;
+    width: 25%;
+    background-color: rgb(47, 47, 148);
+    color: white;
+}
+
+button.submitbutton:hover{
+  background-color: rgb(47, 47, 148);
+}
+
+button.cancelButton{
+  position: absolute;
+    top: 31%;
+    height: 48%;
+    width: 25%;
+    background-color: rgb(228, 228, 249);
+}
+
+.error{
+  color: red;
+}
+
+.bottombutton{
+  position: absolute;
+  top: 32%;
+  left: 28%;
+  width: 30%;
+  height: 13%;
+}
+
+.dashboard-table-student{
+  position: absolute;
+  height: 76%;
+  top: 2%;
+  left: 3%;
+  width: 96%;
+}
+
+button.createButtonStudent{
+  position: absolute;
+    top: 5%;
+    left: 85%;
+    background-color: rgb(47, 47, 148);
+    color: white;
+    width: 15%;
+}
+
+button.createButtonStudent:hover{
+  background-color: rgb(47, 47, 148);
+}
+
+label.inputStudent{
+  position: absolute;
+  left: 13%;
+  top: 21.5%;
+  font-family: math;
+  font-size: 20px;
+}
+
+.inputStudent{
+  position: absolute;
+  width: 16%;
+  height: 6%;
+  left: 25%;
+  top: 20%;
+  border-radius: 4px;
+}
+
+label.inputCourse{
+  position: absolute;
+  left: 13%;
+  top: 37%;
+  font-family: math;
+  font-size: 20px;
+}
+
+.inputCourse{
+  position: absolute;
+  width: 16%;
+  height: 6%;
+  left: 25%;
+  top: 35%;
+  border-radius: 4px;
+}
+
+label.inputSpl{
+  position: absolute;
+  left: 13%;
+  top: 52%;
+  font-family: math;
+  font-size: 20px;
+}
+
+.inputSpl{
+  position: absolute;
+  width: 16%;
+  height: 6%;
+  left: 25%;
+  top: 50%;
+  border-radius: 4px;
+}
+
+label.inputPer{
+  position: absolute;
+  left: 50%;
+  top: 21.5%;
+  font-family: math;
+  font-size: 20px;
+}
+
+.inputPer{
+  position: absolute;
+  width: 16%;
+  height: 6%;
+  left: 60%;
+  top: 20%;
+  border-radius: 4px;
+}
+
+label.inputdep{
+  position: absolute;
+  left: 50%;
+  top: 37%;
+  font-family: math;
+  font-size: 20px;
+}
+
+.optiondepartment{
+  position: absolute;
+  width: 16%;
+  height: 6%;
+  left: 60%;
+  top: 35%;
+  border-radius: 4px;
+}
+
+.bottombuttonStudent{
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  width: 30%;
+  height: 13%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
